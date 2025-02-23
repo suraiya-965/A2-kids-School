@@ -96,6 +96,7 @@ header{
  margin-top: auto;
  width: 468px;
  height: 575px;
+ width: 100%;
 
 }
 .text-1{
@@ -410,17 +411,87 @@ height: 81px;
 .hidden{
   display: none;
 }
+.icon{
+  display: none;
+  /* align-items: center; */
+  font-size: 30px;
+  /* margin-right: 12px;
+  margin-bottom: 0px; */
+}
 /* responsive related styles */
 
 /* mobile device */
 @media screen and (max-width:576px) {
   /* navbar */
-.school, .links, .btn-1{
+.school, .links, .btn-1, .icons, .story-1{
   display: none;
 }
-.navigation{
-  <i class="fa-solid fa-bars"></i>
+nav{
+  margin: 0px auto;
 }
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 2px solid orange;
+}
+
+ .icon{
+  display: flex; 
+ }
+ .logo{
+  margin-left: 0px;
+  margin-bottom: 10px;
+ }
+ .banner-content{
+  flex-direction:column-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+ }
+ .card-container{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    justify-items: center;
+   
+ }
+.story-container{
+  grid-template-columns: repeat(2,2fr);
+  
+} 
+.footer-content{
+  flex-direction: column;
+ padding: 16px;
+ 
+  
+}
+header{
+  margin: 0px auto;
+  padding: none;
+  gap: none;
+}
+.banner-img{
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin-right: 290px;
+}
+.story-2, .story-3, .story-4, .story-5{
+  height: 250px;
+  width: 200px;
+  
+}
+.text-2{
+  text-align: center;
+ 
+}
+.img-container{
+  justify-content: center;
+  justify-items: center;
+}
+
 }
 
 
