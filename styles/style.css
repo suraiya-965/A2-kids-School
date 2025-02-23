@@ -6,7 +6,7 @@
 }
 
 nav{
-  /* margin: 0 auto; */
+ 
   padding: 20px 0px 20px 0px;
   margin: 0 141px;
   
@@ -246,6 +246,8 @@ main{
 .s-title{
   text-align: center;
   margin-top: 60px;
+  font-size: 46px;
+  font-weight: 700;
 }
 
 .story-1{
@@ -362,8 +364,6 @@ main{
   width: 100%;
   background-color: rgb(1, 172, 253);
   /* height: 500px; */
- 
-
 }
 .sub-title {
   font-size: 22px;
@@ -403,26 +403,27 @@ height: 81px;
   justify-content: space-between;
   
   
+  
 }
 .footer-container{
   display: flex;
   flex-direction: column;
+  
 }
 .hidden{
   display: none;
 }
 .icon{
   display: none;
-  /* align-items: center; */
+  
   font-size: 30px;
-  /* margin-right: 12px;
-  margin-bottom: 0px; */
+ 
 }
 /* responsive related styles */
 
 /* mobile device */
 @media screen and (max-width:576px) {
-  /* navbar */
+
 .school, .links, .btn-1, .icons, .story-1{
   display: none;
 }
@@ -458,13 +459,14 @@ nav{
  }
 .story-container{
   grid-template-columns: repeat(2,2fr);
+ 
   
 } 
 .footer-content{
   flex-direction: column;
  padding: 16px;
- 
-  
+
+
 }
 header{
   margin: 0px auto;
@@ -475,21 +477,26 @@ header{
   width: 100%;
   justify-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 25px;
   margin-right: 290px;
 }
 .story-2, .story-3, .story-4, .story-5{
   height: 250px;
   width: 200px;
-  
+
 }
+
 .text-2{
   text-align: center;
- 
+  
 }
 .img-container{
   justify-content: center;
   justify-items: center;
+  margin-right: 300px;
+}
+.banner-title{
+  text-align: center;
 }
 
 }
