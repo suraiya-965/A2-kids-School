@@ -408,7 +408,7 @@ height: 81px;
 .footer-container{
   display: flex;
   flex-direction: column;
-  
+ 
 }
 .hidden{
   display: none;
@@ -477,7 +477,7 @@ header{
   width: 100%;
   justify-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 16px;
   margin-right: 290px;
 }
 .story-2, .story-3, .story-4, .story-5{
