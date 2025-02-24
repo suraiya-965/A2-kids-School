@@ -436,7 +436,6 @@ nav{
   margin-bottom: 5px;
   border-bottom: 2px solid orange;
 }
-
  .icon{
   display: flex; 
  }
@@ -466,23 +465,25 @@ nav{
   flex-direction: column;
  padding: 16px;
 
+}
+.f-description{
+  text-align: left;
+ 
+}
 
-}
-header{
-  margin: 0px auto;
-  padding: none;
-  gap: none;
-}
 .banner-img{
   width: 100%;
   justify-items: center;
   justify-content: center;
+  align-items: center;
+  margin-right: 280px;  
   padding: 16px;
-  margin-right: 290px;
+  
 }
+
 .story-2, .story-3, .story-4, .story-5{
   height: 250px;
-  width: 200px;
+  width: 240px;
 
 }
 
